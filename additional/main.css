@@ -1,0 +1,269 @@
+html{
+    height: 99%;
+    margin-top: 0;
+}
+
+body{
+    height: 100%;
+    margin-top: 0;
+    background-image: url(https://i.imgur.com/DJ66SGJ.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    list-style-type: none;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2a31;
+}
+b {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+headerelement {
+    float: left;
+    border-right: 1px #bbb solid;
+}
+
+headerelement:last-child {
+    border-right: none;
+}
+
+headerelement a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+headerelement a:hover:not(.active) {
+    background-color: #e30505;
+    opacity: 0.8;
+    ;
+}
+
+headerelementend {
+    float: left;
+}
+
+headerelementend:last-child {
+    border-right: none;
+}
+
+headerelementend a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+headerelementend a:hover:not(.active) {
+    background-color: #e30505;
+    opacity: 0.8;
+    ;
+}
+
+
+footer {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2a31;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+footerelement {
+    float: left;
+    border-right: 1px #bbb solid;
+
+}
+
+
+footerelement:last-child {
+    border-right: none;
+}
+
+footerelement a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+
+}
+.active {
+    background-color: #e30505;
+}
+
+#wrapper {
+    max-width: 1000px;
+    min-width: 250px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(189, 175, 175, 0.83);
+    background-size: cover;
+    box-shadow: 10px 10px 8px #2b2a31, -10px 10px 8px #2b2a31;
+    min-height:100%;
+}
+
+errorheader {
+    position: relative;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+}
+
+textheader {
+    position: relative;
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+textbody {
+     position: relative;
+     text-align: left;
+     font-family: 'Dosis', sans-serif;
+     font-size: 20px;
+     color: black;
+ }
+
+select {
+    min-width: 200px;
+ }
+textbodysmall {
+    position: relative;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+textsignoff {
+    position: relative;
+    text-align: right;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+
+textpassword {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+}
+
+.bigdiv {
+    width: auto;
+    min-height: 300px;
+    height: fit-content;
+    padding: 20px;
+}
+
+.partners {
+    display:block;
+    position: relative;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: black;
+    height: fit-content;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+
+
+}
+
+footer {
+    max-width: 1000px;
+    min-width: 250px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2a31;
+
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    position: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textheadersmall {
+    position: relative;
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+input[type=submit] {
+    background-color: #e30505;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    position: center;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+button {
+    background-color: #e30505;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    position: center;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.form-group{
+    width: 250px;
+
+    }
